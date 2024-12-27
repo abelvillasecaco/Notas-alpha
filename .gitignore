@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales y de logs
+*.log
+*.tmp
+*.swp
+
+# Archivos de Excel o datos sensibles
+data/*.xlsx
+
+# Carpetas generadas para despliegue o construcción
+/public/css/
+public/js/*.min.js
+
+# Entornos de desarrollo
+.env
+.env.local
+.env.*.local
