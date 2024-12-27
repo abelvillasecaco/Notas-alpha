@@ -9,19 +9,19 @@ package-lock.json
 .DS_Store
 Thumbs.db
 
-# Archivos temporales y de logs
-*.log
-*.tmp
-*.swp
+# # Archivos temporales y de logs
+# *.log
+# *.tmp
+# *.swp
 
-# # Archivos de Excel o datos sensibles
-# data/*.xlsx
+# # # Archivos de Excel o datos sensibles
+# # data/*.xlsx
 
-# Carpetas generadas para despliegue o construcción
-/public/css/
-public/js/*.min.js
+# # Carpetas generadas para despliegue o construcción
+# # /public/css/
+# public/js/*.min.js
 
-# Entornos de desarrollo
-.env
-.env.local
-.env.*.local
+# # Entornos de desarrollo
+# .env
+# .env.local
+# .env.*.local
