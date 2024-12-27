@@ -4,8 +4,11 @@ const XLSX = require('xlsx');
 const app = express();
 const port = 3000;
 
-// Servir archivos estáticos (HTML, CSS, JS)
-app.use(express.static(path.join(__dirname, 'public')));
+// Servir el archivo index.html desde la raíz
+app.use(express.static(__dirname)); // Ahora incluye la raíz del proyecto
+
+// Servir archivos estáticos de la carpeta public
+app.use('/public', express.static(path.join(__dirname, 'public')));
 
 // Endpoint para obtener los datos del archivo Excel
 app.get('/api/nota', (req, res) => {
