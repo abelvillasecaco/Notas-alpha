@@ -14,8 +14,8 @@ Thumbs.db
 *.tmp
 *.swp
 
-# Archivos de Excel o datos sensibles
-data/*.xlsx
+# # Archivos de Excel o datos sensibles
+# data/*.xlsx
 
 # Carpetas generadas para despliegue o construcción
 /public/css/
